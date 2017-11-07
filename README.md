@@ -10,7 +10,7 @@ Kom igång med din mest dammiga pryl.
 
 ## Installera Rasbian
 Du behöver...
-* SD-kort minst class 10 (>10 MB/s)
+* SD-kort >4GB och minst class 10 (>10 MB/s)
 * USB-kabel mellan RPi och dator
 * USB laddare (Pi3 model B kräver minst 2.5A, alla andra 1A)
 * RPi (gärna Pi3 model B för dess möjlighet till inbyggt WiFi https://www.raspberrypi.org/products)
