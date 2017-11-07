@@ -20,11 +20,11 @@ Du behöver...
 1. Raspbian är en omskrivning av Debian (Linux dist)
 2. Ladda ned https://downloads.raspberrypi.org/raspbian_latest (fullvärdiga versionen)
 3. Ladda samtidigt ned och installera Etcher från https://etcher.io/
-4. Anslut SD kortet till din dator
+4. Anslut SD kortet till din dator, inte RPi
 5. Starta Etcher och markera nedladdade Rasbian-filen i zip/img-form
-6. Välj den disk du vill skriva till (gör inte fel här)
+6. Välj den disk du vill skriva till (OBS! Gör inte fel här!)
 7. Klicka ```Flash!```
-8. Anslut SD-kortet till RPi
+8. Flytta SD-kortet till RPi
 9. Anslut mus, tangentbord och skärm
 10. Spänningsanslut
-11. Logga in med USR: pi, PWD: raspberry
+11. Logga in med USR: ```pi```, PWD: ```raspberry```
