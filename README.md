@@ -2,7 +2,7 @@
 Kom igång med din mest dammiga pryl i lådan 
 
 ## Om RPi
-* De äldre RPi-modellerna fungerar finfint att använda 
+* De äldre RPi-modellerna fungerar finfint att använda så släng dem inte!
 * Officiell webb är https://www.raspberrypi.org/
 * Senaste modellen heter Pi3 model B och har t.ex.inbyggt WiFi/Bluetooth
 * Modellerna presenteras på https://www.raspberrypi.org/products)
