@@ -66,8 +66,9 @@ Du behöver...
  public=no
  ```
  ### Fast IP
- 1. sudo nano /etc/dhcpcd.conf
- 2. Skriv in följande...
+ 1. ```sudo ifconfig -a``` Visa aktuell IP-adress
+ 2. sudo nano /etc/dhcpcd.conf
+ 3. Skriv in följande...
 ```
 interface eth0
 
