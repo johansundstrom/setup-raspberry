@@ -29,4 +29,12 @@ Du behöver...
 9. Flytta SD-kortet till RPi
 10. Anslut mus, tangentbord och skärm
 11. Spänningsanslut
-12. Logga in med USR: ```pi```, PWD: ```raspberry```
+12. Logga in med USR: ```pi```, PWD: ```raspberry``` om du inte blir inloggad automatiskt
+
+## Uppdatera systemet
+* Tag för vana att alltid kontrollera att operativsystemet har senaste uppdateringarna, speciellt inför varje ny app-installation
+* ```sudo apt-get update```
+* ```sudo apt-get upgrade```
+
+## Setup File Share och VNC Server
+Testa 
