@@ -42,6 +42,7 @@ Du behöver...
 ## Uppdatera systemet
 * Linux och dess distros uppdateras ständigt. Tag för vana att alltid kontrollera att operativsystemet har senaste uppdateringarna, speciellt inför varje ny app-installation
 * För att använda systemt med administrativa rättigheter (skrivning utanför hemkatalogen) inleds kommandon som behöver detta med ```sudo```
+* Observera att detta kan ta väldigt lång tid (~20 minuter) beroende på om man ligger efter
 * ```sudo apt-get update```
 * ```sudo apt-get upgrade```
 
