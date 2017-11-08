@@ -15,7 +15,7 @@ Du behöver...
 * SD-kort >4GB och minst class 10 (>10 MB/s)
 * USB-kabel mellan RPi och dator (drift och installation)
 * För fristående användning krävs USB laddare (Pi3 model B kräver minst 2.5A, alla andra 1A)
-* Dator ansluten till Internet
+* PC/Mac/Linux ansluten till Internet
 
 ### Setup
 1. Raspbian är en omskrivning av Debian (välkänd Linux dist)
