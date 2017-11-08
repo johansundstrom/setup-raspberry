@@ -6,7 +6,7 @@ Kom igång med hobbylådans mest dammiga pryl
 * Officiell webb är https://www.raspberrypi.org/
 * Senaste modellen heter Pi3 model B och har t.ex. inbyggt WiFi/Bluetooth
 * Modellerna presenteras på https://www.raspberrypi.org/products)
-* RPi drivs med 3.3V via inbyggd spänningsregulator (matas med 5V från USB)
+* RPi drivs internt med 3.3V via inbyggda spänningsregulatorn (matas med 5V från USB)
 * OS finns från bl.a. Linux distros, Microsoft och många fler
 * Vanligt är att anslutning sker via SSH (terminal) eller Remote Desktop 
 
