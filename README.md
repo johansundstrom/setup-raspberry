@@ -23,7 +23,7 @@ Du behöver...
 3. Ladda samtidigt ned och installera Etcher från https://etcher.io/ (~50MB)
 4. Anslut SD kortet till din dator, inte RPi
 5. Notera vilken enhetsbeteckning den får (typ F:)
-6. Starta Etcher och markera nedladdade Rasbian-filen i zip/img-form
+6. Starta Etcher och markera nedladdade Rasbian-filen i zip/img-form (UnZip behövs ej)
 7. Välj den SD-disken som kommer att formatteras och skrivas över (OBS! Gör inte fel här!)
 8. Klicka ```Flash!```
 9. Flytta SD-kortet till RPi
