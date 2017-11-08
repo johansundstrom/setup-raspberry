@@ -31,10 +31,52 @@ Du behöver...
 11. Spänningsanslut
 12. Logga in med USR: ```pi```, PWD: ```raspberry``` om du inte blir inloggad automatiskt
 
+## Konfigurera
+1. Starta terminalen 
+2. ```sudo raspi-config```
+3. Navigera med piltangeter, enter och esc
+4. Ställ in Svensk tid och Svenskt tangentbord layout
+5. Möjliggör SSH
+6. Lämna och spara
+
 ## Uppdatera systemet
-* Tag för vana att alltid kontrollera att operativsystemet har senaste uppdateringarna, speciellt inför varje ny app-installation
+* Linux och dess distros uppdateras ständigt. Tag för vana att alltid kontrollera att operativsystemet har senaste uppdateringarna, speciellt inför varje ny app-installation
+* För att använda systemt med administrativa rättigheter (skrivning utanför hemkatalogen) inleds kommandon som behöver detta med ```sudo```
 * ```sudo apt-get update```
 * ```sudo apt-get upgrade```
 
 ## Setup File Share och VNC Server
-Testa 
+1. ```sudo apt-get update```
+2. ```sudo apt-get upgrade```
+3. ```sudo apt install -y tightvncserver``` Installerar kompakt VNC Server
+4. ```sudo apt install -y xrdp``` Installerar Debians version av RDP-protokollet
+5. ```sudo apt install -y samba``` Installerar nätverksprotokollet SMB/CIFS (SMB - därav Samba)
+6. ```sudo leafpad /etc/samba/smb.conf &``` Öppna konfigurationsfilen för Samba
+7. Lägg till följande i slutet på filen...
+```
+[PiShare]
+ comment=Raspi Share
+ path=/home/pi
+ browseable=Yes
+ writeable=Yes
+ only guest=No
+ create mask=0740
+ directory mask=0750
+ public=no
+ ```
+ ### Fast IP
+ 1. sudo nano /etc/dhcpcd.conf
+ 2. Skriv in följande...
+```
+interface eth0
+
+static ip_address=192.168.0.10/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+
+interface wlan0
+
+static ip_address=192.168.0.200/24
+static routers=192.168.0.1
+static domain_name_servers=192.168.0.1
+```
