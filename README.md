@@ -1,5 +1,5 @@
 # Setup Raspberry
-Kom igång med din mest dammiga pryl i lådan 
+Kom igång med hobbylådans mest dammiga pryl 
 
 ## Om RPi
 * De äldre RPi-modellerna fungerar finfint att använda så släng dem inte!
